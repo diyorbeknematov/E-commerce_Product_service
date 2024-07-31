@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option go_package = "generated/mainservice";
+
+import "product-service/catygory.proto";
+import "product-service/comment.proto";
+import "product-service/product.proto";
+
+package main_service;
+
+service MainService {
+    // Mahsulotlar bilan bog'liq endpointlar
+    rpc CreateProduct(product.CreateProductRequest) returns (product.CreateProductResponse);
+    rpc UpdateProduct(product.UpdateProductRequest) returns (product.UpdateProductResponse);
+    rpc DeleteProduct(product.DeleteProductRequest) returns (product.DeleteProductResponse);
+    rpc GetAllProduct(product.GetAllProductRequest) returns (product.GetAllProductResponse);
+    rpc GetByIdProduct(product.GetByIdProductRequest) returns (product.GetByIdProductResponse);
+
+    rpc CreateOrder (product.Order) returns (product.OrderResponse);
+    rpc GetOrderByPId (product.GetOrderByPIdRequest) returns (product.GetOrderByPIdResponse);
+
+    rpc AddToBasket (product.AddToBasketRequest) returns (product.AddToBasketResponse);
+    rpc GetBasketProducts (product.GetBasketRequest) returns (product.BasketResponse);
+    rpc DeleteBasketProduct (product.DeleteBasketRequest) returns (product.DeleteBasketResponse);
+
+    rpc GetUserRecommendation(product.Void) returns (product.GetRecommendationsResponse);
+
+    rpc GetPurchasedProducts(product.GetPurchasedPRequest) returns (product.GetPurchasedPResponse);
+
+    // Kategoriyalar bilan bog'liq endpointlar
+    rpc GetAllCategories(category.GetAllCategoryRequest) returns (category.GetAllCategoryResponse);
+    rpc CreateCategory(category.CreateCategoryRequest) returns (category.CreateCategoryResponse);
+    rpc UpdateCategory(category.UpdateCategoryRequest) returns (category.UpdateCategoryResponse);
+    rpc DeleteCategory(category.DeleteCategoryRequest) returns (category.DeleteCategoryResponse);
+
+    // Sharhlar bilan bog'liq endpointlar
+    rpc GetAllReviews(review.GetAllReviewsRequest) returns (review.GetAllReviewsResponse);
+    rpc GetReviewsByProductId (review.GetReviewsByPIdRequest) returns (review.GetReviewsByPIdResponse);
+    rpc CreateReview (review.CreateReviewRequest) returns (review.CreateReviewResponse);
+    rpc UpdateReview (review.UpdateReviewRequest) returns (review.UpdateReviewResponse);
+    rpc DeleteReview (review.DeleteReviewRequest) returns (review.DeleteReviewResponse);
+}

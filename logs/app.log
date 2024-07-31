@@ -1,0 +1,267 @@
+{"time":"2024-07-31T10:16:02.970889184+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T10:16:02.973574633+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T10:16:02.973660946+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T10:16:02.973725247+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T10:16:02.973743521+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T10:41:50.765708505+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T10:41:50.768458778+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T10:41:50.768574082+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T10:41:50.768667229+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T10:41:50.768693514+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T14:53:10.49686319+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T14:53:10.501680166+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T14:53:10.50178915+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T14:53:10.502011299+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T14:53:10.502049805+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T14:56:05.380129049+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T14:56:05.385059741+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T14:56:05.385187725+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T14:56:05.385508842+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T14:56:05.385612811+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T14:59:23.887043772+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T14:59:23.892757905+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T14:59:23.892868012+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T14:59:23.893093243+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T14:59:23.893130747+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T15:05:16.382413859+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T15:05:16.408705037+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T15:05:16.408816474+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T15:05:16.409308705+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T15:05:16.409362985+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T15:08:37.581029979+05:00","level":"ERROR","msg":"error in update product","error":"error decoding key images: cannot decode array into a string type"}
+{"time":"2024-07-31T15:11:33.221984046+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T15:11:33.239716927+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T15:11:33.239886566+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T15:11:33.240163442+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T15:11:33.240236974+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T15:12:03.21911978+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T15:12:03.224740202+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T15:12:03.224851997+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T15:12:03.225214837+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T15:12:03.225265254+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T15:14:10.516886108+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T15:14:10.522634134+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T15:14:10.522752199+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T15:14:10.523059706+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T15:14:10.523103399+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T15:34:57.11296004+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T15:34:57.148936882+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T15:34:57.14905463+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T15:34:57.149273535+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T15:34:57.149317757+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T15:39:20.352887362+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T15:39:20.369000855+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T15:39:20.369109116+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T15:39:20.369443325+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T15:39:20.369490393+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T15:52:33.855762148+05:00","level":"ERROR","msg":"error in update product","error":"error decoding key images: cannot decode array into a string type"}
+{"time":"2024-07-31T15:54:07.819093276+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T15:54:07.879647738+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T15:54:07.87980026+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T15:54:07.879969723+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T15:54:07.880057943+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T15:54:13.472279393+05:00","level":"ERROR","msg":"error in update product","error":"error decoding key images: cannot decode array into a string type"}
+{"time":"2024-07-31T15:55:08.454692406+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T15:55:08.505653348+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T15:55:08.505798158+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T15:55:08.505982546+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T15:55:08.506025661+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T17:09:01.036160289+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T17:09:01.041737111+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T17:09:01.041877465+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T17:09:01.042239836+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T17:09:01.042301302+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T17:23:29.954380541+05:00","level":"ERROR","msg":"error in update product","error":"error decoding key images: cannot decode array into a products.Images"}
+{"time":"2024-07-31T17:26:32.742498414+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T17:26:32.747316136+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T17:26:32.747423096+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T17:26:32.747594075+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T17:26:32.747632196+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T17:26:41.071116324+05:00","level":"ERROR","msg":"error in update product","error":"error decoding key images: cannot decode array into a products.Images"}
+{"time":"2024-07-31T17:35:52.274896714+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T17:35:52.285073015+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T17:35:52.285197618+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T17:35:52.285424513+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T17:35:52.285465169+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T19:31:25.089196607+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T19:31:25.109111745+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T19:31:25.109197581+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T19:31:25.109258335+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T19:31:25.109271908+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T19:35:20.248617011+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T19:35:20.2691628+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T19:35:20.269314751+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T19:35:20.269812883+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T19:35:20.269897154+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T19:38:34.871356187+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T19:38:34.889060706+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T19:38:34.889182604+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T19:38:34.88940195+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T19:38:34.889474236+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T19:39:47.362822546+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T19:39:47.373388349+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T19:39:47.373570098+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T19:39:47.373782217+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T19:39:47.3741526+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T20:14:01.0234049+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T20:14:01.046417642+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T20:14:01.046520526+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T20:14:01.046859269+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T20:14:01.04693311+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T20:19:04.869007573+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T20:19:04.904551829+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T20:19:04.904663776+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T20:19:04.904969126+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T20:19:04.90501506+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T20:19:19.32011974+05:00","level":"ERROR","msg":"error in unmarshalling message","error":"proto: cannot parse invalid wire-format data"}
+{"time":"2024-07-31T20:20:15.671473523+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T20:20:15.708655138+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T20:20:15.70877702+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T20:20:15.708956031+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T20:20:15.708993613+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T20:20:28.242323343+05:00","level":"ERROR","msg":"error in unmarshalling message","error":"proto: cannot parse invalid wire-format data"}
+{"time":"2024-07-31T23:31:50.491912103+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T23:31:50.497431737+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T23:31:50.497537294+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T23:31:50.497844396+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T23:31:50.497875745+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T23:37:33.907533685+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T23:37:33.913114825+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T23:37:33.913282603+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T23:37:33.913580707+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T23:37:33.913629927+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T23:38:22.117966611+05:00","level":"ERROR","msg":"error in get all products","error":"(Location40324) Unrecognized pipeline stage name: 'category_name'"}
+{"time":"2024-07-31T23:39:56.001976291+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T23:39:56.007152821+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T23:39:56.007266625+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T23:39:56.007635948+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T23:39:56.007692915+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T23:40:03.294339935+05:00","level":"ERROR","msg":"error in get all products","error":"(Location40324) Unrecognized pipeline stage name: 'category_name'"}
+{"time":"2024-07-31T23:40:08.885042427+05:00","level":"ERROR","msg":"error in get all products","error":"(Location40324) Unrecognized pipeline stage name: 'category_name'"}
+{"time":"2024-07-31T23:41:41.288080207+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T23:41:41.293963504+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T23:41:41.294079018+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T23:41:41.294381044+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T23:41:41.294420661+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T23:41:51.048924899+05:00","level":"ERROR","msg":"error in get all products","error":"(Location40324) Unrecognized pipeline stage name: 'category_name'"}
+{"time":"2024-07-31T23:43:25.733218597+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T23:43:25.73842488+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T23:43:25.738595232+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T23:43:25.738885024+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T23:43:25.738951708+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T23:43:33.443679892+05:00","level":"ERROR","msg":"error in get all products","error":"(Location40324) Unrecognized pipeline stage name: 'category.name'"}
+{"time":"2024-07-31T23:45:50.282806514+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T23:45:50.288045505+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T23:45:50.28819964+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T23:45:50.288458421+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T23:45:50.288507969+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T23:45:54.326803569+05:00","level":"ERROR","msg":"error in get all products","error":"(Location40324) Unrecognized pipeline stage name: 'category_name'"}
+{"time":"2024-07-31T23:47:50.320309071+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T23:47:50.326159451+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T23:47:50.326258336+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T23:47:50.326508368+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T23:47:50.326544128+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T23:47:57.770439248+05:00","level":"ERROR","msg":"error in get all products","error":"(Location40324) Unrecognized pipeline stage name: 'category.name'"}
+{"time":"2024-07-31T23:48:44.345536532+05:00","level":"ERROR","msg":"error in get all products","error":"(Location40324) Unrecognized pipeline stage name: 'name'"}
+{"time":"2024-07-31T23:50:53.686737356+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T23:50:53.692071566+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T23:50:53.692230829+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T23:50:53.692518053+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T23:50:53.692564124+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T23:52:06.804043715+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T23:52:06.81056588+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T23:52:06.81069089+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T23:52:06.811126097+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T23:52:06.811222347+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T23:52:10.241144527+05:00","level":"ERROR","msg":"error in get all products","error":"(Location40324) Unrecognized pipeline stage name: 'name'"}
+{"time":"2024-07-31T23:53:24.201085152+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T23:53:24.20655067+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T23:53:24.206659497+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T23:53:24.206985226+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T23:53:24.207120872+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-07-31T23:53:37.533063484+05:00","level":"ERROR","msg":"error in get all products","error":"(Location40324) Unrecognized pipeline stage name: 'name'"}
+{"time":"2024-07-31T23:56:22.92763219+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-07-31T23:56:22.933379266+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-07-31T23:56:22.933502467+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-07-31T23:56:22.933731546+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-07-31T23:56:22.933772703+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:01:46.601758274+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:01:46.607107574+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:01:46.607269636+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:01:46.607581646+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:01:46.60762034+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:03:54.971817543+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:03:54.977411353+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:03:54.977607882+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:03:54.978027452+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:03:54.978111784+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:09:52.794360049+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:09:52.800125449+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:09:52.800269037+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:09:52.800574629+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:09:52.800634795+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:14:12.014273032+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:14:12.019618688+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:14:12.019744031+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:14:12.019996681+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:14:12.020049453+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:17:37.623806038+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:17:37.629141547+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:17:37.629255965+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:17:37.629442415+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:17:37.629481024+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:19:03.718912281+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:19:03.723959328+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:19:03.724113009+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:19:03.724299372+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:19:03.724344302+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:20:43.403525183+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:20:43.409143325+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:20:43.409294326+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:20:43.40947548+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:20:43.409524905+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:25:58.542982394+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:25:58.548387431+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:25:58.548594194+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:25:58.548944754+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:25:58.548995358+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:28:07.564577598+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:28:07.570327463+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:28:07.570491324+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:28:07.570640637+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:28:07.570678201+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:30:45.557062413+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:30:45.563260745+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:30:45.563436744+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:30:45.563772009+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:30:45.563821364+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:36:07.935490383+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:36:07.940010322+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:36:07.940148964+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:36:07.940371936+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:36:07.940422783+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:39:04.139865529+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:39:04.145760886+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:39:04.145883687+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:39:04.146112139+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:39:04.146153216+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:42:25.749970535+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:42:25.755479123+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:42:25.755618495+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:42:25.755993592+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:42:25.756045259+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:44:04.076073559+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:44:04.081107292+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:44:04.081228912+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:44:04.081519328+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:44:04.081557807+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:46:19.533555296+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:46:19.540990915+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:46:19.541180992+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:46:19.541509271+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:46:19.541595117+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
+{"time":"2024-08-01T00:46:55.019361746+05:00","level":"INFO","msg":"Service started"}
+{"time":"2024-08-01T00:46:55.025265988+05:00","level":"INFO","msg":"gRPC server started on port","port":":50051"}
+{"time":"2024-08-01T00:46:55.02543097+05:00","level":"INFO","msg":"Starting kafka consumer...  Localhost:9092, Topic: order-created, Group"}
+{"time":"2024-08-01T00:46:55.025694542+05:00","level":"INFO","msg":"kafka consumer created","topic":"order-created"}
+{"time":"2024-08-01T00:46:55.025742439+05:00","level":"INFO","msg":"kafka consumer started consuming messages","topic":"order-created"}
