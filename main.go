@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"log"
 	"net"
 	"product-service/config"
@@ -21,6 +22,7 @@ func main() {
 
 	db, err := mongodb.ConnectMongoDB()
 	if err != nil {
+		log.Println(err)
 		logger.Error("error in connecting to mongodb", "error", err)
 		return
 	}
@@ -29,6 +31,7 @@ func main() {
 	cfg := config.Load()
 	productConn, err := net.Listen("tcp", cfg.GRPC_PORT)
 	if err != nil {
+		log.Println(err)
 		logger.Error("error in listening to gRPC port", "error", err)
 		return
 	}
@@ -36,15 +39,21 @@ func main() {
 	s := grpc.NewServer()
 	mainservice.RegisterMainServiceServer(s, service.NewProductService(storage, logger))
 
+	ctx, cancel := context.WithCancel(context.Background())
+	defer cancel()
 	go func() {
-		log.Println("Starting kafka consumer...  Localhost:9092,")
-		logger.Info("Starting kafka consumer...  Localhost:9092, Topic: order-created, Group")
+		logger.Info("Starting kafka consumer...  :9092, Topic: order-created, Group")
 
-		reader := consumer.NewConsumerKafka([]string{"localhost:9092"}, "order-created", "product-service", logger)
+		reader := consumer.NewConsumerKafka([]string{"kafka:9092"}, "order-created", "product-service", logger)
 		defer reader.Close()
 		serve := service.NewKafkaService(&reader, storage, logger)
 
-		reader.ConsumeMessages(serve.CreateOrders)
+		err := reader.ConsumeMessages(ctx, serve.CreateOrders)
+		if err != nil {
+			log.Println("error in consuming kafka messages", "error", err)
+			logger.Error("error in consuming kafka messages", "error", err)
+            return
+		}
 	}()
 
 	logger.Info("gRPC server started on port", "port", cfg.GRPC_PORT)

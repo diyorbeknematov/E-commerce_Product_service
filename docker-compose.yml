@@ -1,0 +1,41 @@
+version: '3.9'
+
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    restart: always
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - ntwork 
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    restart: always
+    ports:
+    - "6378:6379"
+    networks:
+      - ntwork
+
+  product:
+    container_name: ecommerce-product
+    build: .
+    depends_on:
+      - redis
+      - mongo
+    networks:
+      - ntwork
+    ports:
+      - "50051:50051"
+
+networks:
+  ntwork:
+    external: true
+    name: onenet
+    
+volumes:
+  mongo-data:

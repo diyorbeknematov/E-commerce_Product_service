@@ -2,6 +2,7 @@ package mongodb
 
 import (
 	"context"
+	"fmt"
 	pb "product-service/generated/products"
 
 	"go.mongodb.org/mongo-driver/bson"
@@ -25,6 +26,7 @@ func NewBoughtProductCollection(db *mongo.Database) OrderRepository {
 }
 
 func (b *boughtProductImpl) CreateOrder(ctx context.Context, order *pb.Order) (*pb.OrderResponse, error) {
+	fmt.Println("salom")
 	_, err := b.coll.InsertOne(ctx, bson.D{
 		{Key: "_id", Value: order.GetId()},
 		{Key: "user_id", Value: order.GetUserId()},

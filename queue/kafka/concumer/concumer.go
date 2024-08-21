@@ -2,13 +2,14 @@ package consumer
 
 import (
 	"context"
+	"log"
 	"log/slog"
 
 	"github.com/segmentio/kafka-go"
 )
 
 type KafkaConsumer interface {
-	ConsumeMessages(handler func(message []byte)) error
+	ConsumeMessages(ctx context.Context, handler func(message []byte)) error
 	Close()
 }
 
@@ -28,18 +29,28 @@ func NewConsumerKafka(brokerAddrs []string, topic string, groupID string, logger
 		}),
 		logger: logger,
 	}
+	log.Println("kafka consumer created", "topic", consumer.reader.Config().Topic)
 	logger.Info("kafka consumer created", "topic", consumer.reader.Config().Topic)
 	return consumer
 }
 
-func (c *ConsumerKafkaImpl) ConsumeMessages(handler func(message []byte)) error {
-	c.logger.Info("kafka consumer started consuming messages", "topic", c.reader.Config().Topic)
+func (k *ConsumerKafkaImpl) ConsumeMessages(ctx context.Context, handler func(message []byte)) error {
+	defer k.Close()
+
 	for {
-		m, err := c.reader.ReadMessage(context.Background())
-		if err != nil {
-			return err
+		select {
+		case <-ctx.Done():
+			k.logger.Info("Consumer shutting down")
+			return nil
+		default:
+			m, err := k.reader.ReadMessage(ctx)
+			if err != nil {
+				k.logger.Error("Error reading message", "error", err)
+				return err
+			}
+
+			go handler(m.Value)
 		}
-		handler(m.Value)
 	}
 }
 

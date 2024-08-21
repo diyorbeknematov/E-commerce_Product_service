@@ -2,6 +2,7 @@ package service
 
 import (
 	"context"
+	"log"
 	"log/slog"
 	"product-service/generated/products"
 	consumer "product-service/queue/kafka/concumer"
@@ -29,6 +30,7 @@ func NewKafkaService(consumer *consumer.KafkaConsumer, storage storage.IStorage,
 }
 
 func (s *KafkaServiceImpl) CreateOrders(messageset []byte) {
+	log.Println("Request received: ", "topic", "order-created")
 	var order products.OrderRequest
 	err := proto.Unmarshal(messageset, &order)
 	if err != nil {
